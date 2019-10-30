@@ -1,9 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace _03._Recursive_Fibonacci
 {
     class Program
     {
+        public static Dictionary<int, long> fibonacciCache = new Dictionary<int, long>();
+
         static void Main()
         {
             int n = int.Parse(Console.ReadLine());
@@ -11,17 +14,31 @@ namespace _03._Recursive_Fibonacci
             Console.WriteLine(GetFibonacci(n));
         }
 
-        public static long GetFibonacci(int element)
+        public static long GetFibonacci(int n)
         {
-            switch (element)
+            if (fibonacciCache.ContainsKey(n))
+            {
+                return fibonacciCache[n];
+            }
+
+            long number;
+
+            switch (n)
             {
                 case 1:
                 case 2:
                     return 1;
                 default:
-                    long number = GetFibonacci(element - 1) + GetFibonacci(element - 2);
-                    return number;
+                    number = GetFibonacci(n - 1) + GetFibonacci(n - 2);
+                    break;
             }
+
+            if (!fibonacciCache.ContainsKey(n))
+            {
+                fibonacciCache.Add(n, number);
+            }
+
+            return number;
         }
     }
 }
