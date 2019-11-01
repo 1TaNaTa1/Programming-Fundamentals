@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Pascal Triangle", "02. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Recursive Fibonacci", "03. Recursive Fibonacci\03. Recursive Fibonacci.csproj", "{4D1633C5-B895-48D8-BFF6-96795C01B6AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Fold and Sum", "04. Fold and Sum\04. Fold and Sum.csproj", "{78C1282C-E6B8-4211-9EF0-E44D4AA39355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Longest Increasing Subsequence", "05. Longest Increasing Subsequence\05. Longest Increasing Subsequence.csproj", "{E83582C1-0D9C-4FD4-8F56-716D4B768EA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{4D1633C5-B895-48D8-BFF6-96795C01B6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D1633C5-B895-48D8-BFF6-96795C01B6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D1633C5-B895-48D8-BFF6-96795C01B6AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C1282C-E6B8-4211-9EF0-E44D4AA39355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C1282C-E6B8-4211-9EF0-E44D4AA39355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C1282C-E6B8-4211-9EF0-E44D4AA39355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C1282C-E6B8-4211-9EF0-E44D4AA39355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E83582C1-0D9C-4FD4-8F56-716D4B768EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83582C1-0D9C-4FD4-8F56-716D4B768EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83582C1-0D9C-4FD4-8F56-716D4B768EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83582C1-0D9C-4FD4-8F56-716D4B768EA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
