@@ -60,7 +60,7 @@ namespace _02._Race
             result.OrderByDescending(x => x.Value);
 
 
-            var kvp = result.Take(1).ToString();
+            var kvp = result.Take(1);
             
             Console.WriteLine("1st place: {0}", result.Take(1));
             Console.WriteLine("2nd place: {0}", result.Skip(1).Take(1));
