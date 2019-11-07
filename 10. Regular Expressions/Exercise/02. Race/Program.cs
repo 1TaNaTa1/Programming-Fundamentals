@@ -57,14 +57,9 @@ namespace _02._Race
                 input = Console.ReadLine();
             }
 
-            result.OrderByDescending(x => x.Value);
+            result = result.OrderByDescending(x => x.Value).ToDictionary<string, int>;
 
 
-            var kvp = result.Take(1);
-            
-            Console.WriteLine("1st place: {0}", result.Take(1));
-            Console.WriteLine("2nd place: {0}", result.Skip(1).Take(1));
-            Console.WriteLine("3rd place: {0}", result.Skip(2).Take(1));
         }
     }
 }
