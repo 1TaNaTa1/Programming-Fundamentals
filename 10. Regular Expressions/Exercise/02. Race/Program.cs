@@ -57,6 +57,7 @@ namespace _02._Race
                 input = Console.ReadLine();
             }
 
+            // to fix the line below
             result = result.OrderByDescending(x => x.Value).ToDictionary<string, int>();
 
 
