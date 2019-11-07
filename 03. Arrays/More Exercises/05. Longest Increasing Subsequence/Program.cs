@@ -22,10 +22,7 @@ namespace _05._Longest_Increasing_Subsequence
 
                 for (int j = 0; j < i - 1; j++)
                 {
-                    if(numbers[j] < numbers[i] && len[j] + 1 > len[i])
-                    {
-                        len[i] = 1 + len[j];
-                    }
+                    
                 }
             }
 
