@@ -6,7 +6,8 @@ namespace _05._Nether_Realms
     {
         static void Main()
         {
-
+            // TODO
+            // Solve the problem
         }
     }
 }
