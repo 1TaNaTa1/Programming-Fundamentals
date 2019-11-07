@@ -20,7 +20,6 @@ namespace _05._Longest_Increasing_Subsequence
             {
                 len[i] = 1;
 
-                // Fuck
                 for (int j = 0; j < i - 1; j++)
                 {
                     if(numbers[j] < numbers[i] && len[j] + 1 > len[i])
